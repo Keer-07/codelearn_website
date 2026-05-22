@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--for responsive design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeLearn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--navigation bar-->
+        <nav>
+            <h1>CodeLearn</h1>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#course">Courses</a></li>
+                <li><a href="#benefits">About</a></li>
+                <li><a href="#faqOut">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--main content-->
+    <main>
+        <section id="hero">
+            <h3 style="font-size: 30px;">Learn Tech Skills for Your Future</h3>
+            <p>Start Your Coding Journey Today with beginner-friendly courses</p>
+            <button id="explorebtn">Explore Courses</button>
+        </section>
+        <!--courses-->
+        <section id="course">
+            <h2>Explore Course Catalog</h2>
+            <p>Explore beginner-friendly courses designed to build your skills.</p>
+            <div class="course-card">
+                <h3>HTML Basics</h3>
+                <p>Learn the structure and foundation of web pages.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <h3>CSS Mastery</h3>
+                <p>Style websites beautifully with colours, layout, and responsive design.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <h3>Javascript Essentials</h3>
+                <p>Add interactivity and logic to websites.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <h3>C++ Programming</h3>
+                <p>Build programming skills through logic and problem solving.</p>
+                <button>Enroll Now</button>
+            </div>
+        </section>
+        <!--about section-->
+        <section id="benefits">
+            <h2>Invest in Your Career</h2>
+            <div class="benefit-box">
+                <h3>📚 Explore New Skills</h3>
+                <p>Access beginner-friendly courses in web development and programming.</p>
+            </div>
+            <div class="benefit-box">
+                <h3>🏆 Earn Certificates</h3>
+                <p>Receive certificates after successful course completion.</p>
+            </div>
+            <div class="benefit-box">
+                <h3>🚀 Learn from Experts</h3>
+                <p>Gain practical knowledge from structured learning paths.</p>
+            </div>
+        </section>
+        <!--faq section-->
+        <section id="faqOut">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq">
+            <h3 class="faq-ques">Who can join CodeLearn courses?</h3>
+            <p class="faq-ans">Anyone interested in programming, from beginners to students, can join our courses.</p>
+            <h3 class="faq-ques">Are the courses beginner friendly?</h3>
+            <p class="faq-ans">Yes, all courses are designed with simple explanations and practical examples.</p>
+            <h3 class="faq-ques">Do I get certificates after completion?</h3>
+            <p class="faq-ans">Yes, learners receive a certificate after successfully completing each course.</p>
+            <h3 class="faq-ques">Can I access courses anytime?</h3>
+            <p class="faq-ans">Yes, courses can be accessed anytime from any device with internet access.</p>
+            </div>
+        </section>
+        <!--contact section-->
+        <section style="background-color: white;" id="contact">
+            <h2>Contact us</h2>
+            <form id="contactform">
+                <label>Name:</label><br>
+                <input type="text" id="name" placeholder="Enter your name" required><br><br>
+                <label>Email:</label><br>
+                <input type="email" id="email" placeholder="Enter your email" required><br><br>
+                <label>Message:</label><br>
+                <textarea rows="5" id="msg" placeholder="Enter your message" required></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 CodeLearn. All rights reserved.</p>
+        <p>Learn. Build. Grow</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
